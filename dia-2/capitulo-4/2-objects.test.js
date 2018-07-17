@@ -51,7 +51,7 @@ describe("Objects", function () {
     expect(descricao.calculateAge()).toBe(RESPOSTA);
   });
 
-  describe(""in" keyword", function () {
+  describe("'in' keyword", function () {
     var descricao;
     beforeEach(function () {
       descricao = {
