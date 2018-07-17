@@ -10,7 +10,7 @@ describe("typeof", function () {
   });
 
   it("typeof float", function () {
-    expect(typeOf(10.0)).toEqual("float");
+    expect(typeOf(10.0)).toEqual("number");
   });
 
   it("typeof string", function () {
