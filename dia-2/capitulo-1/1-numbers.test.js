@@ -50,6 +50,11 @@ describe("subtração", function () {
     const value = RESPOSTA; // IMPLEMENTE
     expect(value - 1.0).toEqual(3.141);
   });
+
+  it("retorna o valor da subtração entre uma string e um inteiro", function () {
+    const value = "1"; // IMPLEMENTE
+    expect(value - 1).toEqual(0);
+  });
 });
 
 describe("módulo", function () {
