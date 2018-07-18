@@ -52,7 +52,7 @@ describe("subtração", function () {
   });
 
   it("retorna o valor da subtração entre uma string e um inteiro", function () {
-    const value = "1"; // IMPLEMENTE
+    const value = RESPOSTA; // IMPLEMENTE
     expect(value - 1).toEqual(0);
   });
 });
